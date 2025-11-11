@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Install apps
+
+sudo pacman -S gimp thunderbird bluez-utils bitwarden bitwarden-cli
+
+yay -S visual-studio-code-bin spotify discord anydesk-bin
+
+
 # Define the source of your backup (adjust as needed)
 # This assumes you know the specific backup directory you want to restore from
 SOURCE_BACKUP_DIR="$HOME/Documents/hyprland_config_backup_YYYYMMDD_HHMMSS" # Replace with actual backup directory
@@ -18,9 +25,7 @@ cp "$SOURCE_BACKUP_DIR/looknfeel.conf" "$HOME/.config/hypr/looknfeel.conf"
 
 # Optional: Restore other relevant configurations
 # Example:
-# cp -r "$SOURCE_BACKUP_DIR/waybar" "$HOME/.config/"
-# cp -r "$SOURCE_BACKUP_DIR/rofi" "$HOME/.config/"
-# cp -r "$SOURCE_BACKUP_DIR/kitty" "$HOME/.config/"
+
 cp -r "SOURCE_BACKUP_DIR/alacritty.toml" "$HOME/.config/alacritty/alacritty.toml"
 
 

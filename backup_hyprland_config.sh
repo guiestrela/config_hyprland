@@ -9,7 +9,7 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 # Define backup directory
-BACKUP_DIR="$HOME/hyprland_config_backup_$(date +%Y%m%d_%H%M%S)"
+BACKUP_DIR="$HOME/Dev/hyprland_config_backup_$(date +%Y%m%d_%H%M%S)"
 HYPRLAND_CONFIG="$HOME/.config/hypr"
 ALACRITTY_CONFIG="$HOME/.config/alacritty"
 

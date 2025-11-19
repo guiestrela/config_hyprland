@@ -12,6 +12,7 @@ cp "$HOME/.config/hypr/bindings.conf" "$BACKUP_DIR/"
 cp "$HOME/.config/hypr/looknfeel.conf" "$BACKUP_DIR/"
 cp "$HOME/.config/waybar/config.jsonc" "$BACKUP_DIR/"
 cp "$HOME/.config/waybar/style.css" "$BACKUP_DIR/"
+cp "$HOME/.config/waybar/scripts/weather.sh" "$BACKUP_DIR/"
 
 # Optional: Copy other relevant configurations (e.g., Waybar, Rofi, Kitty)
 # Example:

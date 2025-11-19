@@ -16,6 +16,9 @@ cp "$SOURCE_BACKUP_DIR/bindings.conf" "$HOME/.config/hypr/bindings.conf"
 cp "$SOURCE_BACKUP_DIR/looknfeel.conf" "$HOME/.config/hypr/looknfeel.conf"
 cp "$SOURCE_BACKUP_DIR/config.jsonc" "$HOME/.config/waybar/config.jsonc"
 cp "$SOURCE_BACKUP_DIR/style.css" "$HOME/.config/waybar/style.css"
+cp "$SOURCE_BACKUP_DIR/weather.sh" "$HOME/.config/waybar/scripts/weather.sh"
+
+chmod +x "$HOME/.config/waybar/scripts/weather.sh"
 
 # Optional: Restore other relevant configurations
 # Example:

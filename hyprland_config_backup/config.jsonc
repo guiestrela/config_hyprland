@@ -53,7 +53,7 @@
     "interval": 21600
   },
    "custom/weather": {
-    "interval": 1800,
+    "interval": 900,
     "exec": "~/.config/waybar/scripts/weather.sh",
     "return-type": "json",
     "format": "{}",

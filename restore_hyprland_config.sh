@@ -25,6 +25,7 @@ chmod +x "$HOME/.config/waybar/scripts/weather.sh"
 # cp -r "$SOURCE_BACKUP_DIR/waybar" "$HOME/.config/"
 # cp -r "$SOURCE_BACKUP_DIR/rofi" "$HOME/.config/"
 # cp -r "$SOURCE_BACKUP_DIR/kitty" "$HOME/.config/"
+cp -r "$SOURCE_BACKUP_DIR/config" "$HOME/.config/ghostty/config"
 cp -r "SOURCE_BACKUP_DIR/alacritty.toml" "$HOME/.config/alacritty/alacritty.toml"
 
 

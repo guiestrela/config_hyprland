@@ -19,6 +19,7 @@ cp "$HOME/.config/waybar/scripts/weather.sh" "$BACKUP_DIR/"
 # cp -r "$HOME/.config/waybar" "$BACKUP_DIR/"
 # cp -r "$HOME/.config/rofi" "$BACKUP_DIR/"
 # cp -r "$HOME/.config/kitty" "$BACKUP_DIR/"
+cp -r "$HOME/.config/ghostty/config" "$BACKUP_DIR/"
 cp -r "$HOME/.config/alacritty/alacritty.toml" "$BACKUP_DIR/"
 
 echo "Hyprland configuration backed up to: $BACKUP_DIR"
